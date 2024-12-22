@@ -13,7 +13,7 @@ A system for managing and monitoring computer metrics, including CPU, memory, di
 - Libraries: psutil, matplotlib (for graphs)
 - Operating System: Windows / Linux / macOS
 
-## Installation
+## Installation:
 1. Clone the repository:
    ```bash
    git clone https://github.com/yourusername/monitoring-system.git
