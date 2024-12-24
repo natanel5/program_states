@@ -14,10 +14,9 @@ def get_memory_usage():
         "percent": memory_info.percent,
     }
 
+
 def get_disk_usage():
-    path="C:\\"
-    
-    
+    path = "C:\\"
     disk_info = psutil.disk_usage(path)
     return {
         "total": disk_info.total,
