@@ -16,6 +16,8 @@ def get_memory_usage():
 
 def get_disk_usage():
     path="C:\\"
+    
+    
     disk_info = psutil.disk_usage(path)
     return {
         "total": disk_info.total,
@@ -32,4 +34,5 @@ def get_processes_usage():
             processes.append(process.info)
         except (psutil.NoSuchProcess, psutil.AccessDenied, psutil.ZombieProcess):
             continue
+
     return processes
